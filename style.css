@@ -1,0 +1,28 @@
+body{
+    background-image: url(background.jpg);
+}
+#heading{
+    background-color: #a8dad4;
+    width: 100%;
+    top: 0 !important;
+    position: sticky important;
+    padding: 15px;
+    font-size: 20px;
+}
+canvas{
+    border: solid 1px #a8dad4;
+    animation-name: Example_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Example_1{
+    0% {box-shadow:1px 1px 40px #a8dad4;} 
+    100%{box-shadow: 1px 1px 20px #a8dad4;}
+}
+button{
+    padding:10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a8dad4;    
+}
